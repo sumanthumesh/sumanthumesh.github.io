@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: November 19, 2023 --><html lang="en-us" >
+<!-- Last Published: November 26, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -659,13 +659,13 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/cellar/" >Cellar</a>
+      <a href="/project/cxl/" >CXL Based Memory Expansion for Databases</a>
     </div>
 
     
-    <a href="/project/cellar/"  class="summary-link">
+    <a href="/project/cxl/"  class="summary-link">
       <div class="article-style">
-        CXL Enabled Large Language Model Accelerator
+        CXL memory expansion enabled system for large in-memory databases to  avoid I/O accesses. Tables are paritioned and placed in the DRAM -&gt; CXL-memory hierarchical structure based on query workload analysis and mapped to CXL devices to exploit device level parallelism to reduce average access latency
       </div>
     </a>
     
@@ -684,9 +684,9 @@
     
     
       
-      <a href="/project/cellar/" >
-        <img src="/project/cellar/featured_huc5e775c6f72376d8db95b6f261e40904_70124_150x0_resize_q75_h2_lanczos.webp" height="66" width="150"
-            alt="Cellar" loading="lazy">
+      <a href="/project/cxl/" >
+        <img src="/project/cxl/featured_hud0581367d492d30578dc7c715bf3bef7_1039829_150x0_resize_q75_h2_lanczos.webp" height="84" width="150"
+            alt="CXL Based Memory Expansion for Databases" loading="lazy">
       </a>
     
   </div>
@@ -709,14 +709,22 @@
 
 
 
+  
+
 
 <div class="media stream-item view-compact">
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/cxl/" >CXL Based Memory Expansion for Databases</a>
+      <a href="/project/cellar/" >CXL Enabled Large Language Model Accelerator</a>
     </div>
 
+    
+    <a href="/project/cellar/"  class="summary-link">
+      <div class="article-style">
+        Processing in Memory based LLM accelerator with processing units placed adjacent to memory banks. Multiple PIM accelerators are connected using a CXL network to accomodate the large paramter sizes. Each CXL attached accelerator also has a set of specialized functional units and a RISC-V core to support operations that cannot be executed solely on the PIM PUs.
+      </div>
+    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -733,9 +741,9 @@
     
     
       
-      <a href="/project/cxl/" >
-        <img src="/project/cxl/featured_huc5e775c6f72376d8db95b6f261e40904_70124_150x0_resize_q75_h2_lanczos.webp" height="66" width="150"
-            alt="CXL Based Memory Expansion for Databases" loading="lazy">
+      <a href="/project/cellar/" >
+        <img src="/project/cellar/featured_hu07cbeb240c4399239fadc3ecc2581ad7_187350_150x0_resize_q75_h2_lanczos.webp" height="78" width="150"
+            alt="CXL Enabled Large Language Model Accelerator" loading="lazy">
       </a>
     
   </div>
@@ -774,7 +782,7 @@
     
     <a href="https://github.com/sumanthumesh/RISCV_core" target="_blank" rel="noopener" class="summary-link">
       <div class="article-style">
-        Designed a N-Way 2superscalar RISC-V core as part of EECS 470.
+        Supercalar RISC-V core based on MIPS R10K with a multi-ported I-cache with prefetching, branch prediction and non-blocking D-cache with victim cache. Implemented in SystemVerilog for a course project (EECS470)
       </div>
     </a>
     
